@@ -25,9 +25,6 @@ Use `--project` to install into `./.claude/settings.json` (this repo only) inste
 - **macOS**: any format `afplay` supports, including `.m4r` (default sound file)
 - **Linux**: use `.wav` or `.ogg`. `.m4r`/`.m4a` are auto-converted to `.wav` via `ffmpeg` if installed
 - **Windows/WSL**: `.wav`
-- Avoid `.mp3` — not reliably supported by any of the above
-
-`.wav` is the safest cross-platform choice if you want the repo to work for others with zero extra dependencies.
 
 ## Sample sound attribution
 
