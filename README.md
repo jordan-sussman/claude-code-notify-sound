@@ -4,7 +4,7 @@ Play a sound when [Claude Code](https://docs.claude.com/en/docs/claude-code) fin
 
 ## Setup
 
-1. Drop a sound file into `sounds/` directory or use existing (`notification.m4r`)
+1. Optional: Drop a sound file into `sounds` folder. If omitted, the default `notification.m4r` sound will be used.
 2. Run:
 
 ```bash
