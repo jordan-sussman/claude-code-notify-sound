@@ -16,9 +16,9 @@ Use `--project` to install into `./.claude/settings.json` (this repo only) inste
 ## What it does
 
 - Copies your sound to `~/.claude/sounds/`
-- Detects your OS and picks a player: `afplay` (macOS), `paplay`/`aplay` (Linux), PowerShell `SoundPlayer` (Windows/WSL)
-- Adds `Stop` and `Notification` hooks to your settings.json, merging safely without touching existing hooks or settings
-- Re-running updates the hook
+- Detects your OS and picks a player type
+- Adds `Stop` and `Notification` hooks to your settings.json without touching existing hooks or settings
+- Support for updating the hook through reruns
 
 ## File formats
 
