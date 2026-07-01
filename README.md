@@ -1,6 +1,6 @@
 # claude-code-notify-sound
 
-Play a sound when [Claude Code](https://docs.claude.com/en/docs/claude-code) finishes responding or needs your input, using Claude Code [hooks](https://docs.claude.com/en/docs/claude-code/hooks).
+Play a notification sound when [Claude Code](https://docs.claude.com/en/docs/claude-code) finishes responding or needs your input, using Claude Code [hooks](https://docs.claude.com/en/docs/claude-code/hooks).
 
 ## Setup
 
