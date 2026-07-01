@@ -6,6 +6,11 @@ import sys
 
 EVENTS = ["Stop", "Notification"]
 
+MATCHERS = {
+    "Notification": "permission_prompt|elicitation_dialog",
+    "Stop": "",
+}
+
 
 def get_path_variants(sounds_dir):
     variants = {sounds_dir}
@@ -72,7 +77,7 @@ def add_hooks(settings, command, sounds_dir):
 
         event_hooks.append(
             {
-                "matcher": "permission_prompt|elicitation_dialog" if event == "Notification" else "",
+                "matcher": MATCHERS.get(event, ""),
                 "hooks": [{"type": "command", "command": command}],
             }
         )
