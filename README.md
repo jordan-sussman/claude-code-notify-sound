@@ -18,7 +18,7 @@ Use `--project` to install into `./.claude/settings.json` (this repo only) inste
 - Copies your sound to `~/.claude/sounds/`
 - Detects your OS and picks a player type
 - Adds `Stop` and `Notification` hooks to your settings.json without touching existing hooks or settings
-- Support for updating the hook through reruns
+- Supports updating the hook through reruns
 
 ## File formats
 
