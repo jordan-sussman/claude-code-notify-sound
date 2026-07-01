@@ -29,7 +29,7 @@ Use `--project` to install into `./.claude/settings.json` (this repo only) inste
 
 `.wav` is the safest cross-platform choice if you want the repo to work for others with zero extra dependencies.
 
-## Example sound attribution
+## Sample sound attribution
 
 Sample notification sound sourced from [notificationsounds.com](https://notificationsounds.com/notification-sounds/elegant-notification-sound), licensed under [CC Attribution](https://notificationsounds.com/terms-of-use#copyright).
 
