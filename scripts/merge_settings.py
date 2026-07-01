@@ -71,7 +71,10 @@ def add_hooks(settings, command, sounds_dir):
         event_hooks[:] = [h for h in event_hooks if not is_our_hook(h, sounds_dir)]
 
         event_hooks.append(
-            {"matcher": "", "hooks": [{"type": "command", "command": command}]}
+            {
+                "matcher": "permission_prompt|elicitation_dialog" if event == "Notification" else "",
+                "hooks": [{"type": "command", "command": command}],
+            }
         )
     return settings
 
