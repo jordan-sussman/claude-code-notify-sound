@@ -31,7 +31,7 @@ Use `--project` to install into `./.claude/settings.json` (this repo only) inste
 Sample notification sound sourced from [notificationsounds.com](https://notificationsounds.com/notification-sounds/elegant-notification-sound), licensed under [CC Attribution](https://notificationsounds.com/terms-of-use#copyright).
 
 ## Uninstall
-Removes only the hooks this tool added.
+Remove only the hooks this tool added:
 
 ```bash
 ./install.sh --uninstall
