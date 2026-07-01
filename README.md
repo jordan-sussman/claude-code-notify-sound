@@ -4,7 +4,7 @@ Play a sound when [Claude Code](https://docs.claude.com/en/docs/claude-code) fin
 
 ## Setup
 
-1. Drop a sound file into `sounds/` (e.g. `notification.wav`)
+1. Drop a sound file into `sounds/` (IE: `notification.wav`) or use existing (`notification.m4r`)
 2. Run:
 
 ```bash
@@ -20,7 +20,7 @@ Use `--project` to install into `./.claude/settings.json` (this repo only) inste
 - Adds `Stop` and `Notification` hooks to your settings.json, merging safely without touching existing hooks or settings
 - Re-running updates the hook
 
-## Format notes
+## File formats
 
 - **macOS**: any format `afplay` supports, including `.m4r` (default sound file)
 - **Linux**: use `.wav` or `.ogg`. `.m4r`/`.m4a` are auto-converted to `.wav` via `ffmpeg` if installed
@@ -29,14 +29,13 @@ Use `--project` to install into `./.claude/settings.json` (this repo only) inste
 
 `.wav` is the safest cross-platform choice if you want the repo to work for others with zero extra dependencies.
 
-## Attribution
+## Example sound attribution
 
 Sample notification sound sourced from [notificationsounds.com](https://notificationsounds.com/notification-sounds/elegant-notification-sound), licensed under [CC Attribution](https://notificationsounds.com/terms-of-use#copyright).
 
 ## Uninstall
+Removes only the hooks this tool added.
 
 ```bash
 ./install.sh --uninstall
 ```
-
-Removes only the hooks this tool added.
