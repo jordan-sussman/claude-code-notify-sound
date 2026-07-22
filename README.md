@@ -28,7 +28,7 @@ Use `--project` to install into `./.claude/settings.json` (this repo only) inste
 
 ## Sample sound attribution
 
-Sample notification sound sourced from [notificationsounds.com](https://notificationsounds.com/notification-sounds/elegant-notification-sound), licensed under [CC Attribution](https://notificationsounds.com/terms-of-use#copyright).
+Sample notification sound sourced from [notificationsounds.com](https://notificationsounds.com/notification-sounds), licensed under [CC Attribution](https://notificationsounds.com/terms-of-use#copyright).
 
 ## Uninstall
 Remove only the hooks this tool added:
